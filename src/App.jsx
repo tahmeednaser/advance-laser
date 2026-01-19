@@ -17,6 +17,7 @@ import HowItWorks from './pages/HowItWorks';
 import Resources from './pages/Resources';
 import Company from './pages/Company';
 import Contact from './pages/Contact';
+import Footer from "./Components/Footer";
 
 /* ScrollToTop component */
 function ScrollToTop() {
