@@ -13,6 +13,12 @@ body, html, .app {
   flex-direction: column;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -113,6 +119,17 @@ a {
 .nav-link:hover::after,
 .nav-link.active::after {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 12px 16px;
+  }
+
+  .nav-links {
+    gap: 12px;
+    font-size: 14px;
+  }
 }
 
 /* HERO */
@@ -525,3 +542,24 @@ a {
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* Desktop (default) */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  /* slightly smaller spacing */
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  /* stack sections */
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  /* reduce font sizes */
+}
